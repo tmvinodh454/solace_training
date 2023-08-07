@@ -1,0 +1,24 @@
+Schema
+--> a schema refers to the logical structure or blueprint
+--> It acts as a template for creating database objects :: tables, views, indexes, and constraints.
+
+DB Schema
+--> structure and organization of a database
+--> logical blueprint that represents how data is stored, arranged, and related to each other within the database
+--> consist of tables, columns, data types, constraints, and relationships between tables.
+
+There are 3 types of Schema:
+--> Physical DB Schema
+--> Logical DB Schema
+--> View DB Schema
+
+To create schema:
+mysql & sql server:: CREATE SCHEMA or CREATE DATABASE:: Oracle--> CREATE USER
+
+6 types of DB Schema
+Flat model
+Hierarchical model
+Network model
+Relational model
+Star schema
+Snowflake schema
