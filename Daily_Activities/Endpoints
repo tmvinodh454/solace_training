@@ -1,0 +1,19 @@
+Solace Endpoints
+--> Objects created on the event broker to persist messages. 
+
+2  types of endpoints:
+Queue Endpoints
+Topic Endpoints
+
+Topic Endpoint:
+--> destination address to which messages are sent by producers
+--> It represents a specific topic or subject to which messages are published
+
+Queue Endpoint:
+--> a messaging pattern where messages are sent to and received from a specific queue.
+--> The messages in the queue are typically processed in a first-in-first-out (FIFO) manner.
+
+Characteristics Of Endpoints:
+Topic Subscriptions :: A consuming application uses subscriptions to route messages towards it
+Selectors :: A conditional statement applied to an endpoint by a consuming application to filter messages by their header and user properties.
+Queue Browsing :: A consuming applications’ ability to read messages from a queue without removing them from the queue.
