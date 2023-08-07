@@ -1,0 +1,28 @@
+Which API referred?
+Linkedin Profile Edit API
+
+What did you understand from the API's?
+--> application to modify LinkedIn profiles
+-->In order for your application to modify any member's profile, the member's authorization (via OAuth) is required.
+--> URI Endpoint
+--> Allows Application to send information between each others.
+
+What are the parameters + endpoints?
+URL : https://api.linkedin.com/
+
+endpoint :  https://api.linkedin.com/v2/people/(id:{person ID})
+path parameter : /v2
+query parameter: /people/(id:{person ID})
+
+endpoint : https://api.linkedin.com/v2/assets?action=registerUpload
+path parameter : /v2
+query parameter : /assets?action=registerUpload
+
+endpoint : https://api.linkedin.com/v2/assets?action=registerUpload
+path parameter : /v2
+query parameter : /assets?action=registerUpload
+
+What are the business utlities of the API's ?
+--> To modify the profile details
+--> Edit DOB and Update Profile with Backgroung Image
+--> Edit the member's current location.
