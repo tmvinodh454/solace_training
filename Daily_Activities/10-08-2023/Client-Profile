@@ -1,1 +1,5 @@
+How to Create and configure client-profiles?
 
+Go to EBS --> Manage --> Event Broker Service Settings (Client Profiles) --> Add New --> Profile Name, Disabled Add shared Subscriptions, Minimum Keepalive Timeout(100) --> Save
+
+Client Profile configuration is not working in Solace CLI.
